@@ -1,0 +1,14 @@
+{
+  "extends": [
+		"@syntatis/eslint-config",
+		"next/core-web-vitals"
+	],
+	"overrides": [
+		{
+			"files": ["page.tsx", "layout.tsx"],
+			"rules": {
+				"import/no-default-export": "off"
+			}
+		}
+	]
+}
